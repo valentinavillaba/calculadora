@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+ background-color: thistle;
+ font-family:"Montserrat",sans-serif;
+ text-align: center;
+}
+#contenedor{ 
+    background-color: red;
+    width: 800px;
+    height:500px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+#formulario {
+    background-color: white
+    height: 500px;
+    width: 800px;
+    float: left;
+    
+}
+#detalle {
+    background-color: rgb(4, 185, 240);
+    color: white;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.contenido {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;
+
+} 
+button{
+pading:12px 30px
+font size: 15px;
+text-transform: uppercase
+font-family: "Montserrat", sans-serif;
+backgroup-color: #235789;
+border: nome
+boder-radius:15px;
+color: white;
+letter-spascing:1px;
+
+
+
+}
